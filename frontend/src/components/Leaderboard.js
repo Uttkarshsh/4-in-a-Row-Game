@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // 1. Use the Environment Variable for the deployed URL
-const API_URL = "https://four-in-a-row-game-1-e34s.onrender.com/";
+const API_URL = "https://four-in-a-row-game-1-e34s.onrender.com/leader/api/leaderboard";
 
 function Leaderboard({ gameResult }) {
   const [leaders, setLeaders] = useState([]);
