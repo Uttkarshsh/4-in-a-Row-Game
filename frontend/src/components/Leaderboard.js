@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Get API URL from backend (3001)
-const API_URL = https://four-in-a-row-game-1-e34s.onrender.com;
+const API_URL = "https://four-in-a-row-game-1-e34s.onrender.com";
 
 // 1. Remove 'show' and 'toggleShow' from props
 function Leaderboard({ gameResult }) {
