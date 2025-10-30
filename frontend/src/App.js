@@ -5,7 +5,7 @@ import Game from './components/Game';
 import Leaderboard from './components/Leaderboard';
 
 // Connect to your backend server
-const SOCKET_SERVER_URL = "https://four-in-a-row-game-kapm.onrender.com/";
+const SOCKET_SERVER_URL = "https://four-in-a-row-game-1-e34s.onrender.com";
 const socket = io(SOCKET_SERVER_URL);
 
 function App() {
