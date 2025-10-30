@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Get API URL from backend (3001)
-const API_URL = "http://localhost:3001/api/leaderboard";
+const API_URL = (process.env.REACT_APP_BACKEND_URL || "http://localhost:3001") + "/api/leaderboard";
 
 // 1. Remove 'show' and 'toggleShow' from props
 function Leaderboard({ gameResult }) {
